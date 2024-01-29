@@ -42,4 +42,6 @@ def test():
     result = GPT1.prompt("You are an AI who only types the answer to the question and nothing else.", "What is the value of 5 + 8?")
     print (result.message.content) 
     
-test()
+
+if __name__ == "__main__":
+    test()
